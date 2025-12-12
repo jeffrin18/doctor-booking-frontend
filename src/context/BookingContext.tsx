@@ -1,6 +1,4 @@
 import { createContext, useContext, useState, type ReactNode } from 'react';
-
-// Define what our data looks like
 interface Doctor {
   id: number;
   name: string;
